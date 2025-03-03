@@ -28,7 +28,7 @@ repos:
       - id: mixed-line-ending
       - id: trailing-whitespace
   - repo: https://github.com/pycqa/isort
-    rev: "6.0.0"
+    rev: "6.0.1"
     hooks:
       - id: isort
         args: ["--profile", "black", "--filter-files"]
@@ -39,7 +39,7 @@ repos:
       - id: black
         exclude: ^{{cookiecutter\.project_slug}}
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: "v1.14.1"
+    rev: "v1.15.0"
     hooks:
       - id: mypy
         exclude: ^{{cookiecutter\.project_slug}}
