@@ -55,7 +55,7 @@ jobs:
     env:
       OUTPUT_DIRECTORY: _cache
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Setup Python
         uses: actions/setup-python@v6
